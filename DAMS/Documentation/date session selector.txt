@@ -1,0 +1,62 @@
+1) on rva_eventreport.php page Paste jquery code
+
+<script src="js/jquery.min.js"></script>
+<script>
+								
+									
+									$( document ).ready(function()
+									{
+										$("#srange_show").hide();
+										$("#drange_show").hide();	
+									
+									
+									
+									
+									$("#srange").click(function(){
+										$("#srange_show").show();
+										$("#drange_show").hide();
+									});
+									$("#drange").click(function(){
+										$("#drange_show").show();
+										$("#srange_show").hide();
+									});									
+									
+									});
+									
+	</script>
+
+
+2) replace from All session to last session with <?php include('rva_date_session_selector.php') ?> which has code for session and date selection.
+
+
+3)in rva_event_preview.php page remove all session code and replace with rva_date_conversion.php which converts data to $from and $to.
+
+
+4) Edit submit link and include from, to and range.
+5) in preview page remove $_GET[sessions]  and replace with from, to , range.
+6) Edit query with if (range =1||2)
+and between from and to .
+7) Do this in excel code also.
+
+
+
+Done files:-
+Organized
+  workshop
+   fdtsttp
+   seminar
+   industry
+Attended
+	 fdp/sttp
+	 seminar
+	 all
+Awards
+*********************
+rva_all_preview2.php <-- not done
+
+_______________________
+not changed in rva_facprofile_preview2.php
+__________________________
+no change in placement files
+
+

@@ -1,0 +1,2 @@
+echo "<td>";?><a href='index.php?ename=<?php echo $row['wname'] ?>&place=<?php echo $place ?>&username=<?php echo $un ?>&thispage=<?php echo $thispage ?>' ><img src='img/edit.png' height="20px" width="20px"></a>/<a href='rva_deletevent.php?ename=<?php echo $row['wname'] ?>&place=<?php echo $place ?>&username=<?php echo $un ?>&thispage=<?php echo $thispage ?>' ><img src='img/delete.png' height="20px" width="20px"></a><?php echo "</td>";
+									

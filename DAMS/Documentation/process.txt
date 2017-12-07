@@ -1,0 +1,10 @@
+1) On the UI page remove sessions and add date radio buttons and jquery on top.
+2) in the preview page check value of radio button selected
+   1 for - session range
+   2  for date range
+   0  for no selection ( error value)
+3) convert session string to date using date_create , date_format logic.
+4) In the submit link remove session passing and substitute with from and to
+5) In Preview page remove session variable initialization and put from and to.
+6) In sql query remove where clause and substitute with where and BETWEEN clause for both preview and excel.
+7) Check if( !from & !to) if not date entered. 

@@ -1,0 +1,11 @@
+mysql_query(      ->     replace with     ->        mysqli_query($con,
+
+
+mysql_select_db -> with blank
+
+
+mysql_fetch_array -> mysqli_fetch_array
+
+mysql_num_rows-> mysqli_num_rows
+
+mysql_error -> mysqli_error

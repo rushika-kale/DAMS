@@ -1,0 +1,26 @@
+1) Index.php logic to not display download for no file.
+
+				  <?php
+				  $res=mysql_query("Select * from notifier order by id desc");
+				  
+				  while( $row=mysql_fetch_array($res))
+				  {
+				  echo '
+				  <div class="da-slide">
+					<h1>'.$row['title'].'</h1>
+					<p>'.$row['text'].'</p>';
+					if( !empty( $row['filename']) )
+					{
+						
+						echo ' <a href="notifiles/'.$row['filename'].'" class="da-link">Download</a>';
+					}
+				  echo '</div>';
+				  }
+				  ?>
+
+
+
+1a) Rename userid to id in database table.
+
+2) Check the rva_notification.php
+3) check the rva_addnotification.php

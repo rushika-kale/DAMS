@@ -1,0 +1,30 @@
+*****************************
+
+Report a bug
+
+Select the category(s) to which this bug belongs 
+/*( use checkbox 0/1)*/
+1) Technical glitches 
+2) Graphical issues 
+3) Incorrect Data fetching issue 
+
+Describe the bug in detail 
+|     /*Text area     */              |
+|__________________________|
+
+Is the bug critical? 
+( This will help us to resolve the critical issues faster )
+Yes  ? 
+No   ?
+
+
+Do you want to upload a screenshot of the issue?
+ Yes  ? 
+No   ?
+(/* yes me browse button khulega*/
+
+****************************************************************************
+****************************************************************************
+1. creted file rva_addbug.php...........for mysql link
+2. rva_bug.php..........................for UI
+

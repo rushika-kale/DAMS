@@ -1,0 +1,87 @@
+13-03-2017
+Changes Done by Rushika
+1. rva_report3.php			-->	added jquery.min.js at bottom of the page
+2. rva_add_workshop.php 		-->	changed report generation and home, logout format(change in font)
+					Change Title to Organized Workshop
+					session file added
+					Put break at the end of page
+					Heading changed to Organized Workshop
+					added jquery.min.js at bottom of the page
+3.  rva_add_seminar.php 		-->	changed report generation and home, logout format(change in font)
+					Change Title to Organized Seminar
+					session file added
+					Put break at the end of page
+					Heading changed to Organized Seminar
+					added jquery.min.js at bottom of the page
+4.  rva_add_fdp.php 		-->	changed report generation and home, logout format(change in font)
+					Change Title to Organized FDP
+					session file added
+					Put break at the end of page
+					Heading changed to Organized FDP
+					added jquery.min.js at bottom of the page
+5.  rva_add_sttp.php 		-->	changed report generation and home, logout format(change in font)
+					Change Title to Organized STTP
+					session file added
+					Put break at the end of page
+					Heading changed to Organized STTP
+					added jquery.min.js at bottom of the page
+6. rva_add_indus.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					Added heading outline to whole document
+					deleted first 2 years of the "select year/sem"
+					added jquery.min.js at bottom of the page
+7. rva_add_guest.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					change text style at Type of Event
+					changes body heading to "Guest Lecture Detail"
+					Added placeholder
+					removed required tag from "Expenses"
+8. rva_add_atten_workshop.php	-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					Workshop Detail heading added
+					changes Name to Name of Workshop
+9. rva_add_atten_seminar.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					Seminar Detail heading added
+					changes Name to Name of Seminar
+10. rva_add_atten_fdp.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					FDP  Detail heading added
+					changes Name to Name of FDP
+11. rva_add_atten_sttp.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					STTP  Detail heading added
+					changes Name to Name of STTP
+12. rva_add_awards.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					Awards/Recognition  Detail heading added
+					changes Name to Name of Awards/recognition
+					Deleted first 2 years of Year/Sem
+13. rva_add_publi.php		-->	changed report generation and home, logout format(change in font)
+					session file added
+					added jquery.min.js at bottom of the page
+14. rva_add_publi2.php		-->	changed report generation and home, logout format(change in font)
+					Put break at the end of page
+					added jquery.min.js at bottom of the page
+					added jombotron in each 'if' accordingly
+					deleted heading in abstract
+15. rva_createuser.php		-->	changed report generation and home, logout format(change in font)
+					Add format like a box to the data
+16. rva_addsession.php		-->	changed report generation and home, logout format(change in font)
+					Add format like a box to the data
+17. index.php			-->	removed logo and name plate
+					removed one line
+					spaces between meny

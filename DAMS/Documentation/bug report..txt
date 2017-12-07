@@ -1,0 +1,2 @@
+1) rva_bug to enter bug  and rva_addbug.php to enter into database.
+2) rva_bug_preview to find bug report

@@ -1,0 +1,44 @@
+DAMS ( created on 12 March 2017 and inaugrated by Honorable Guruji) 
+****************************************************************
+Changes done 
+
+12-03-2017
+
+1) Edit delete feature added to rva_atten_workshop_preview2.php
+Created files rva_deletevent.php which works for all pages and we just have to add $thispage logic. It also works for admin and normal user priviledges and prevents deletion of other user's data. We have not implemented this on edit.
+
+2) rva_add_atten_seminar_edit.php was implemented for editting data for Attended workshops. Prevent user form editing other user's data is NOT IMPLEMENTED yet.This file needs to be created for each event.
+
+3) Access was made a global variable $_SESSION['access'] in the file login.php.
+
+
+4) Changes to index file to fix bug of no logout button for when screen is small ( less than 769)
+
+5) Add session feature was added from the file rva_addsession.php which was added to Admin tab.This redirects to rva_session.php which stores the session in database.
+
+6) rva_selectsession.php was made which automatically generates an autopopulated session list based on number of sessions in the session table. This has ONLY been implemented in rva_add_workshop.php i.e ORGANIZED WORSHOP ONLY !
+
+7) attended workshop preview file renamed from rva_report_preview2.php to rva_atten_workshop_preview2.php and the old file is in the junks folderalong with rva_report_preview.php both are now obsolete.
+
+8) From to Date range was implemented by Rushika in organized workshop section and is working successfully. But other organized sections still have SESSION to find elements manually using queries like session=2012-13. Attended section has a successfully working FROM to DATE selection.
+
+9) Switched from mysql to mysqli db connection already created, rva_dbconnection.php.
+
+*************************************************************
+Changes to be DONE
+
+1) Add a common session verification, rva_session_verification.php file and remove redundant code.
+2) Add an rva_common.php which is to be used in future in case any variables thatneed to be accessed on all files can be added. This will have include for rva_session_verification.php & rva_dbconnection.php. 
+3) Session and FROM to LOGIC to be combined into a from to date selection logic using radio buttons.
+
+**************************************************************
+GENERAL INFO
+
+1) The only files which are not starting with rva are:
+index.php, login.php, logout.php
+
+2) Junk files are present in junk folder
+
+3) mysql to mysqli conversion. For refernce mysql_to_mysqli_conversion.txt
+
+4) 'rva_common.php' contains both for  rva_session_verification.php and rva_dbconnection.php
